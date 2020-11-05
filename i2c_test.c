@@ -2,6 +2,7 @@
  * ********************************************************************************
  * @file i2c_test.c
  * @author Esp.Ing Julian Bustamante N
+ * @email thejbte@gmail.com
  * @date 5 Nov, 2020
  * @brief Read fuel gauge and temperature/humidity  sensors 
  **********************************************************************************/
@@ -16,6 +17,9 @@
 #include "sht30.h"
 #include <unistd.h>
 /*
+#GPIOs location
+GPIOS=/sys/class/gpio
+
 #Buzzer
 echo 19 > $GPIOS/export
 echo out > $GPIOS/gpio19/direction
